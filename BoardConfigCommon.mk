@@ -71,6 +71,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/s3c-usbgadget/gadget/l
 # Graphics
 BOARD_EGL_CFG := device/samsung/smdk4210-tab/configs/egl.cfg
 USE_OPENGL_RENDERER := true
+BOARD_USES_SKTEXTBOX := true
 COMMON_GLOBAL_CFLAGS += -DSURFACEFLINGER_FORCE_SCREEN_RELEASE
 ENABLE_WEBGL := true
 
